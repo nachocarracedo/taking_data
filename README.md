@@ -7,7 +7,7 @@ Heads up I didn't have much time to work on the competition itself but I really 
 There are 2 notebooks on this projects:
 * EDA_Taking_Data.ipynb: EDA.
 * ml_taking_data.ipynb: Where the data is cleaned, aggregated, and predictions are made.  
-* 
+ 
 The use of sparse matrices was a no brainer for me because of the size of the data (my low memory computer also had something to do with it) and how the data was presented.  
 
 The data had devices (cell phones) and the apps that were installed on them. I did one hot encoding on a sparse matrix. Once I had the sparse matrix I do my first predictions. On a second prediction layer I use the probabilities obtained from the first layer and other generated.  
